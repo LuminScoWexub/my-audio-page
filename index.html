@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>点击播放录音 - 秦腔书法</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: system-ui, -apple-system, sans-serif;
+            padding: 2rem;
+            background: #f5f5f5;
+            margin: 0;
+        }
+        .player-card {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #222;
+            margin-top: 0;
+        }
+        .sub {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        audio {
+            width: 100%;
+            margin-top: 0.5rem;
+            outline: none;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+<div class="player-card">
+    <h2>🎙️ 秦腔书法 · 录音</h2>
+    <div class="sub">点击下方播放按钮收听</div>
+    <audio controls preload="none">
+        <!-- 将下面的 src 替换成你刚刚复制的 Raw 链接 -->
+        <source src="https://raw.githubusercontent.com/LuminScoWexub/my-audio-page/main/%E7%A7%A6%E8%85%94%E4%B9%A6%E6%B3%95_break.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放。
+    </audio>
+</div>
+<footer>扫码即听 · 秦腔书法</footer>
+</body>
+</html>
